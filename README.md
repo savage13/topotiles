@@ -1,7 +1,7 @@
 # topotiles
 Convert Topopgraphy Raster to Tiles with Hillshade
 
-![Example color-relief hillshaded output](example.png?raw=true "Example color-relief hillshaded output")
+![Example color-relief hillshaded output](topo.png?raw=true "Example color-relief hillshaded output")
 
 ## Steps
 1. `./get_gmrt.sh` - Downloads topography data from https://www.gmrt.org in tiles of approximately 30 degres
