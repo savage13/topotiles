@@ -22,6 +22,9 @@ Convert Topopgraphy Raster to Tiles with Hillshade
 - Creating of the tiles can take a long time
 - The output tiles directory should have `leaflet.html` and other various html files to easily view the output
 - Any artifacts in the color-relief image will propagate into the resulting tiles.
+- Colormap is taken from [GeoMapApp](http://www.geomapapp.org/) and the default [GMRT](https://www.gmrt.org) colorscale
+  - The land and ocean scales were merged 
+  - Colored at shallow water depths were changed from a dark green to very light/almost white 
 
 ## License
 BSD 2-Clause Simplified License
